@@ -2,7 +2,7 @@ language: csharp
 sudo: required
 dist: trusty
 
-dotnet: 2.1.401
+dotnet: 2.2.100
 mono:
   - 5.14.0
   - latest # => "stable release"
@@ -18,7 +18,7 @@ addons:
     - dotnet-sharedframework-microsoft.netcore.app-1.1.2
 
 script:
-  - sh ./build.sh
+  - ./build.sh
 
 matrix:
   fast_finish: true
