@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 set -eu
-set -o pipefail
 
 # liberated from https://stackoverflow.com/a/18443300/433393
 realpath() {
