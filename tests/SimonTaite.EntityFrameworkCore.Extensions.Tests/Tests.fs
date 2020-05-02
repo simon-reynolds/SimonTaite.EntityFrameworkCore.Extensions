@@ -1,13 +1,12 @@
 module Tests
 
-
+open System
 open Expecto
 open SimonTaite.EntityFrameworkCore.Extensions
 
 [<Tests>]
 let tests =
-  testList "samples" [
-    testCase "Say nothing" <| fun _ ->
-      let subject = ""
-      Expect.equal subject "" "Not an absolute unit"
-  ]
+    testList "Empty" [
+        testCase "Add two integers" <| fun _ ->
+            let subject = 1 + 2
+            Expect.equal subject 3 "Addition works" ]

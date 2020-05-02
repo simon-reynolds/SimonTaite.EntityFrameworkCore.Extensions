@@ -1,7 +1,4 @@
-SET TOOL_PATH=.fake
+echo Restoring dotnet tools...
+dotnet tool restore
 
-IF NOT EXIST "%TOOL_PATH%\fake.exe" (
-  dotnet tool install fake-cli --tool-path ./%TOOL_PATH%
-)
-
-"%TOOL_PATH%/fake.exe" build -t %*
+dotnet fake build -t %*

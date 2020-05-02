@@ -44,5 +44,11 @@ module DependencyInjection =
 
         EntityFrameworkServiceCollectionExtensions.AddDbContext<'a>(serviceCollection, optionsAction', contextLifetime', optionsLifetime')
 
-    let addEntityFrameworkStores<'a when 'a :> DbContext> =
-        IdentityEntityFrameworkBuilderExtensions.AddEntityFrameworkStores<'a>
+    let addDbContextPool<'a when 'a :> DbContext> (optionsAction: Action<DbContextOptionsBuilder>) poolSize serviceCollection =
+        EntityFrameworkServiceCollectionExtensions.AddDbContextPool<'a>(serviceCollection, optionsAction, poolSize)
+
+    let addDbContextPool2<'a when 'a :> DbContext>(optionsAction: Action<IServiceProvider, DbContextOptionsBuilder>) poolSize serviceCollection =
+        EntityFrameworkServiceCollectionExtensions.AddDbContextPool<'a>(serviceCollection, optionsAction, poolSize)
+
+    let addEntityFrameworkStores<'a when 'a :> DbContext> builder =
+        IdentityEntityFrameworkBuilderExtensions.AddEntityFrameworkStores<'a> builder
