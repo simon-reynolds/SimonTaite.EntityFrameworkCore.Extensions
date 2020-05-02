@@ -9,7 +9,7 @@
 macOS/Linux | Windows
 --- | ---
 [![Travis Badge](https://travis-ci.org/simontaite/SimonTaite.EntityFrameworkCore.Extensions.svg?branch=master)](https://travis-ci.org/simontaite/SimonTaite.EntityFrameworkCore.Extensions) | [![Build status](https://ci.appveyor.com/api/projects/status/github/simontaite/SimonTaite.EntityFrameworkCore.Extensions?svg=true)](https://ci.appveyor.com/project/simontaite/SimonTaite.EntityFrameworkCore.Extensions)
-[![Build History](https://buildstats.info/travisci/chart/simontaite/SimonTaite.EntityFrameworkCore.Extensions)](https://travis-ci.org/simontaite/SimonTaite.EntityFrameworkCore.Extensions/builds) | [![Build History](https://buildstats.info/appveyor/chart/simontaite/SimonTaite.EntityFrameworkCore.Extensions)](https://ci.appveyor.com/project/simontaite/SimonTaite.EntityFrameworkCore.Extensions)  
+[![Build History](https://buildstats.info/travisci/chart/simontaite/SimonTaite.EntityFrameworkCore.Extensions)](https://travis-ci.org/simontaite/SimonTaite.EntityFrameworkCore.Extensions/builds) | [![Build History](https://buildstats.info/appveyor/chart/simontaite/SimonTaite-EntityFrameworkCore-Extensions)](https://ci.appveyor.com/project/simontaite/simontaite-entityframeworkcore-extensions)  
 
 ## NuGet 
 
