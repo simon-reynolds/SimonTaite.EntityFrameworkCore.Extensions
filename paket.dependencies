@@ -5,7 +5,7 @@ source https://api.nuget.org/v3/index.json
 storage: none
 nuget FSharp.Core 4.3.4
 nuget Microsoft.SourceLink.GitHub prerelease copy_local: true
-nuget Expecto 8.13.1
+nuget Expecto 8.13.2
 nuget YoloDev.Expecto.TestSdk 0.8.0
 nuget Microsoft.NET.Test.Sdk 15.7.2
 nuget altcover ~> 6
